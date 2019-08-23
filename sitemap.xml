@@ -1,0 +1,30 @@
+---
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://rboccunigodfrey.github.io/PVD</loc>
+      <lastmod>2019-08-223</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>http://rboccunigodfrey.github.io/PVD/blog</loc>
+      <lastmod>2019-08-23</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+{% for post in site.blog %}
+  <url>
+    {% assign relative = post.url | split:'/' | last %}
+
+    <loc>{{site.root_site}}blog/{{relative}}</loc>
+    {% assign last_mod = site.blog | last %}
+    <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+{% endfor %}
+</urlset>

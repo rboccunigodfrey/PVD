@@ -2,3 +2,5 @@ collections:
   blog:
     output: true
     permalink: /blog/:name
+future: true
+root_site: https://rboccunigodfrey.github.io/PVD/

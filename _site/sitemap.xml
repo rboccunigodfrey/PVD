@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://rboccunigodfrey.github.io/PVD</loc>
+      <lastmod>2019-08-223</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>http://rboccunigodfrey.github.io/PVD/blog</loc>
+      <lastmod>2019-08-23</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+
+  <url>
+    
+
+    <loc>https://rboccunigodfrey.github.io/PVD/blog/cool</loc>
+    
+    <lastmod>2019-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    
+
+    <loc>https://rboccunigodfrey.github.io/PVD/blog/epic</loc>
+    
+    <lastmod>2149-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>

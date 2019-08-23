@@ -1,6 +1,6 @@
 ---
 title: cool math games died in the wrapper
 layout: post
-date: 2414-5-5
+date: 2019-8-21
 ---
-Rest in peace cool amthsdk taaasdg?
+Rest in peace cool amthsdk taaasdg??
