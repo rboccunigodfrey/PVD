@@ -4,16 +4,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="posts-main.css">
     <title></title>
   </head>
   <body>
-    <h1>Posts</h1>
-    <a href="/"><</a>
+    <h1>Blog Posts</h1>
+
+    <a id="back-btn" href="../"><</a>
     {% assign sorted = site.blog | sort:'date' | reverse %}
     {% for post in sorted %}
       <p>
-        <a href="{{post.url}}">{{post.title}}</a> - {{post.date | date: '%B %-d, %-Y'}}
+        <a href="{{post.url}}">{{post.title}}</a>
+        <span>{{post.date | date: '%B %-d, %-Y'}}</span>
       </p>
     {% endfor %}
+    
   </body>
 </html>
